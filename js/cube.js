@@ -7,9 +7,9 @@ document.body.appendChild(renderer.domElement);
 const corHex1 = '#' + Math.floor(Math.random()*16777215).toString(16).padStart(6, '0');
 const corHex2 = '#' + Math.floor(Math.random()*16777215).toString(16).padStart(6, '0');
 const corHex3 = '#' + Math.floor(Math.random()*16777215).toString(16).padStart(6, '0');
-const corHex4 = '#' + Math.floor(Math.random()*16777215).toString(16).padStart(6, '0');
-const corHex5 = '#' + Math.floor(Math.random()*16777215).toString(16).padStart(6, '0');
-const corHex6 = '#' + Math.floor(Math.random()*16777215).toString(16).padStart(6, '0');
+const corHex4 = '#' + Math.floor(Math.random()*16777215).toString(16).padStart(6, '2');
+const corHex5 = '#' + Math.floor(Math.random()*16777215).toString(16).padStart(6, '1');
+const corHex6 = '#' + Math.floor(Math.random()*16777215).toString(16).padStart(6, '5');
 
 const materials = [
     new THREE.MeshBasicMaterial({ color: corHex1 }),
